@@ -1,0 +1,32 @@
+.hero-button {
+    margin-top: 30px;
+    padding-left: 485px;
+    padding-right: 485px;
+    padding-bottom: 200px;
+    
+  }
+  
+
+  .button {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.06em;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    color: $color-secondary;
+    background-color: $accent-color;
+  }
+  
+   
+   

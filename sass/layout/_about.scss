@@ -1,0 +1,43 @@
+.heading-box {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+   
+    
+  .about {
+    padding-top: 199px;
+    text-align: center;
+  }
+
+  .heading-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: $title-color;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+  }  
+  .label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-secondary;
+    padding-top: 27px;
+  }
+   
+  .heading {
+    position: relative;
+  }
