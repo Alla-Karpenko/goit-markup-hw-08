@@ -1,4 +1,4 @@
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -63,7 +63,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 187% */
+    
     color: $color-secondary;
     background: $accent-color;
    
@@ -106,7 +106,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    /* identical to box height */
+    
     letter-spacing: 0.01em;
     color: $subtitle-color;
     margin-top: 10px;
@@ -144,7 +144,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
+    
     letter-spacing: 0.03em;
     color: $subtitle-color;
 
@@ -172,4 +172,4 @@
   .modal-form-policy:checked + .modal-form-policy-label::before {
     background-image: url("../img/Vector.png");
     background-color: $accent-color;
-  }
+  } */
