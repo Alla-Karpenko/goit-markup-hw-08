@@ -1,4 +1,4 @@
-/* *,
+/*  *,
   *::before,
   *::after {
     margin: 0;
@@ -10,10 +10,7 @@
     font-style: normal;
   }
   
-  
-  .list {
-    list-style: none;
-  }
+
   
   .link {
     text-decoration: none;
@@ -25,4 +22,8 @@
    
   img {
     display: block;
-  } */
+  }  */
+
+  .list {
+    list-style: none;
+  }
