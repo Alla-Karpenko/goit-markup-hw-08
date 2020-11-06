@@ -10,31 +10,30 @@
   overflow: hidden;
 }
 
-/*  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-  }  
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-  }
-  
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 
-  
-  .link {
-    text-decoration: none;
-  }
-  
-  .address {
-    font-style: normal;
-  }
-   
-  img {
-    display: block;
-  }  */
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
