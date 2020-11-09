@@ -20,44 +20,47 @@
     
     <header class="header">
       <div class="container">
-        <nav class="navigation">
+       
           <a class="header-logo" lang="en">Web<span class="accent">Studio</span></a>
-          <button class="menu-button" type="button" aria-expanded="false" aria-controls="" data-menu-button>
+          <button class="menu-button "  type="button" aria-expanded="false" aria-controls="header-menu-container" data-menu-button>
             <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
               <use  class="icon-cross" href="./img/sprite.svg#icon-cross"></use>
               <use class="icon-menu" href="./img/sprite.svg#icon-menu"></use>
             </svg>
           </button>
-         <!--  <ul class="navigation-list list">
-            <li class="navigation-list-item">
-              <a class="navigation-active-link link" href="">Студия</a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="./portfolio.html" target="blank">Портфолио</a>
-            </li>
-            <li class="navigation-list-item">
-              <a class="navigation-list-link link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="address-studio">
-          <address class="address">
-            <a class="header-mail-link link" href="mailto:info@devstudio.com">
-              <svg class="mail-svg" width="16px" height="12px">
-                <use  href="./img/sprite.svg#icon-hover"> </use>
-              </svg>
-              info@devstudio.com
-            </a>
-          </address>
-          <address class="address">
-            <a class="header-tel-link link" href="tel:+380961111111">
-              <svg class="tel-svg" width="10px" height="16px">
-                <use href="./img/sprite.svg#icon-Vector"></use>
-              </svg>
-              +38 096 111 11 11
-            </a>
-          </address>
-        </div> -->
+          <div class="header-menu-container is-open" data-menu id="header-menu-container">
+            <nav class="navigation">
+              <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                  <a class="navigation-active-link link" href="">Студия</a>
+                </li>
+                <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="./portfolio.html" target="blank">Портфолио</a>
+                </li>
+               <li class="navigation-list-item">
+                <a class="navigation-list-link link" href="">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="address-studio">
+              <address class="address">
+                <a class="header-mail-link link" href="mailto:info@devstudio.com">
+                  <svg class="mail-svg" width="16px" height="12px">
+                   <use  href="./img/sprite.svg#icon-hover"> </use>
+                  </svg>
+                  info@devstudio.com
+                </a>
+              </address>
+              <address class="address">
+                <a class="header-tel-link link" href="tel:+380961111111">
+                  <svg class="tel-svg" width="10px" height="16px">
+                    <use href="./img/sprite.svg#icon-Vector"></use>
+                  </svg>
+                 +38 096 111 11 11
+                </a>
+              </address>
+            </div>
+          </div>
         
       </div>
       
@@ -392,7 +395,7 @@
 
     <!-- FOOTER -->
 
-    <footer class="footer">
+   <!--  <footer class="footer">
       <div class="container">
        
         <div class="address-social">
@@ -466,7 +469,7 @@
         
       </div>
      
-    </footer> 
+    </footer>  -->
 
       <!-- MODAL WINDOW   -->
 
@@ -526,7 +529,8 @@
 
 
       </div>
-    </div>
-    <script src="./js/modal.js"></script> -->
+    </div>-->
+    <script src="./js/menu.js"></script> 
+    <script src="./js/modal.js"></script> 
   </body>
 </html>
