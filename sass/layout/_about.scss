@@ -1,4 +1,11 @@
-.heading-box {
+
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+  .about {
+    display: none;
+  }
+}
+@media screen and (min-width:1200px) {
+ .heading-box {
     display: flex;
     justify-content: space-between;
     
@@ -6,7 +13,8 @@
    
     
   .about {
-    padding-top: 199px;
+    padding-top: 34px;
+    padding-bottom: 94px;
     text-align: center;
   }
 
@@ -41,3 +49,4 @@
   .heading {
     position: relative;
   }
+}

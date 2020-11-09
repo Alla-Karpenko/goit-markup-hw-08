@@ -56,8 +56,12 @@
 }
 
 
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 320px) {
+  .section{
+    padding-bottom: 60px;
+  }
   .services {
+    
     padding-top: 60px;
   }
    
@@ -72,18 +76,17 @@
   .services-item:not(:last-child) {
    margin-bottom: 30px;
   }
- 
-
-  
 }
 
-
 @media screen and (min-width: 768px) {
- 
+  .section{
+    padding-bottom: 60px;
+  }
   .services {
-    
-    padding-top: 60px;
-  } 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
   .services-title::before {
    
     width: 100%;
@@ -95,7 +98,6 @@
     margin-right: 30px;
   }  
   .services-item {
-    display: inline-block;
     width: 354px;
   }
  
@@ -104,18 +106,18 @@
   .diagram,
   .astronaut {
     width: 354px;
-    
-  }
-   
-   
+  } 
 }
 
 @media screen and (min-width: 1200px) {
+  
   .services {
     display: flex;
    padding-top: 94px; 
   }
- 
+  .services-item {
+    width: 270px;
+  }
   .services-title::before {
     display: inline-block;
     width: 270px;
