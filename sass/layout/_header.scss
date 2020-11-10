@@ -107,13 +107,7 @@
     .header {
       position: relative;
     }
-    .header {
-      width: 100%;
-      min-width: 480px;
-      background-color: #fff;
-      position: fixed;
-      z-index: 100;
-    }
+    
     .header-menu-container {
       display: none;
       text-align: center;
@@ -134,14 +128,7 @@
     .header-menu-container.is-open {
       display: block;
     }
-    .header-container {
-      width: 480px;
-      margin: 0 auto;
-      padding: 0 15px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-     }
+     
    
     .navigation-list-item .active {
       position: relative;
