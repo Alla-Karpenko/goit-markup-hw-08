@@ -19,20 +19,20 @@
     <!-- HEADER -->
     
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
        
           <a class="header-logo" lang="en">Web<span class="accent">Studio</span></a>
           <button class="menu-button "  type="button" aria-expanded="false" aria-controls="header-menu-container" data-menu-button>
-            <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
+            <svg class="menu-svg" width="40px" height="40px" aria-label="Переключатель мобильного меню">
               <use  class="icon-cross" href="./img/sprite.svg#icon-cross"></use>
               <use class="icon-menu" href="./img/sprite.svg#icon-menu"></use>
             </svg>
           </button>
-          <div class="header-menu-container is-open" data-menu id="header-menu-container">
+          <div class="header-menu-container" data-menu id="header-menu-container">
             <nav class="navigation">
               <ul class="navigation-list list">
                 <li class="navigation-list-item">
-                  <a class="navigation-active-link link" href="">Студия</a>
+                  <a class="navigation-active-link link active" href="">Студия</a>
                 </li>
                 <li class="navigation-list-item">
                 <a class="navigation-list-link link" href="./portfolio.html" target="blank">Портфолио</a>
@@ -42,8 +42,8 @@
                 </li>
               </ul>
             </nav>
-            <div class="address-studio">
-              <address class="address">
+            <div class="adress-studio">
+              <address class="adress">
                 <a class="header-mail-link link" href="mailto:info@devstudio.com">
                   <svg class="mail-svg" width="16px" height="12px">
                    <use  href="./img/sprite.svg#icon-hover"> </use>
@@ -51,7 +51,7 @@
                   info@devstudio.com
                 </a>
               </address>
-              <address class="address">
+              <address class="adress">
                 <a class="header-tel-link link" href="tel:+380961111111">
                   <svg class="tel-svg" width="10px" height="16px">
                     <use href="./img/sprite.svg#icon-Vector"></use>

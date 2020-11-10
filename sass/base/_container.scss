@@ -5,31 +5,27 @@
  
  
 }
-.header.container {
-  width: 480px;
-  margin: 0 auto;
-  padding: 0 15px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-}
+
 
 
 @media screen and (max-width: 480px) {
  .header-container {
   position: relative;
  }
+ 
 }
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
+ 
 }   
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
+  
 }  
 @media screen and (min-width: 1200px) {
   .container {
@@ -38,6 +34,17 @@
       display: flex;
     }
     
+
+
+
+    /* .header.container {
+      width: 480px;
+      margin: 0 auto;
+      padding: 0 15px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    } */
 
    /*  .header & {
       display: flex;
