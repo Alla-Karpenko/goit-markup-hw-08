@@ -2,22 +2,19 @@
   padding: 0 15px;
   margin: 0 auto;
 
- 
- 
 }
 
 
 
 @media screen and (max-width: 767px) {
   .header-container {
-    position: relative;
     display: flex;
     align-items: center;
    }
 }
 @media screen and (min-width: 480px) {
   .container {
-    max-width: 767px;
+  width: 480px;
   }
  
 }   
@@ -26,6 +23,10 @@
   .container {
     width: 768px;
   }
+  .header-container {
+    display: flex;
+    align-items: center;
+   }
   
 }  
 @media screen and (min-width: 1200px) {
@@ -38,14 +39,14 @@
 
 
 
-    /* .header.container {
+     .header.container {
       width: 480px;
       margin: 0 auto;
       padding: 0 15px;
       height: 60px;
       display: flex;
       align-items: center;
-    } */
+    } 
 
     .header & {
       display: flex;
