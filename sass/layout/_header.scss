@@ -18,6 +18,19 @@
 
   }
   
+  .navigation-active-link.active::after {
+    content: "";
+    position: absolute;
+    display: block;
+   
+    width: 61px;
+    height: 4px;
+    bottom: 0;
+   left: 50%;
+   transform: translate(-50%);
+    background: $accent-color;
+    border-radius: 2px;
+  }
 
   .navigation-list-link {
     font-family: $main-font;
@@ -136,7 +149,6 @@
      transform: translate(-50%);
       background: $accent-color;
       border-radius: 2px;
-      
     }
     .navigation-list-item {
       padding-bottom: 40px;
@@ -194,6 +206,10 @@
     }
     .header-mail-link {
       margin-top: 10px;
+    }
+    .active {
+      position: relative;
+      padding-bottom: 30px;
     }
     
   }

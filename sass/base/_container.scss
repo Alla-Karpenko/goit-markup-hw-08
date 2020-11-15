@@ -20,11 +20,13 @@
  
 
 @media screen and (min-width: 768px) {
-  .container {
+
+  .gallery.container {
     width: 768px;
   }
 
   .header-container {
+    width: 768px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -32,6 +34,7 @@
   
 }  
 @media screen and (min-width: 1200px) {
+ 
   .container {
     width: 1200px;
     .footer & {
@@ -39,8 +42,6 @@
     }
     
     .header.container {
-      
-     
       height: 60px;
       display: flex;
       align-items: center;

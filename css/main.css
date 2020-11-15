@@ -69,10 +69,11 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .gallery.container {
     width: 768px;
   }
   .header-container {
+    width: 768px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -403,6 +404,19 @@ img {
   color: #2196F3;
 }
 
+.navigation-active-link.active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 61px;
+  height: 4px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background: #2196F3;
+  border-radius: 2px;
+}
+
 .navigation-list-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -563,6 +577,10 @@ img {
   }
   .header-mail-link {
     margin-top: 10px;
+  }
+  .active {
+    position: relative;
+    padding-bottom: 30px;
   }
 }
 
