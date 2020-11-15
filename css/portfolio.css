@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -55,16 +56,16 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 320px) {
+  .container {
+    width: 480px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header-container {
     display: flex;
     align-items: center;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
   }
 }
 
@@ -73,6 +74,7 @@ img {
     width: 768px;
   }
   .header-container {
+    height: 80px;
     display: flex;
     align-items: center;
   }
@@ -86,9 +88,6 @@ img {
     display: flex;
   }
   .container .header.container {
-    width: 480px;
-    margin: 0 auto;
-    padding: 0 15px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -122,13 +121,12 @@ img {
   background-color: #2196F3;
 }
 
-.filter {
-  padding-top: 94px;
-  padding-left: 275px;
+.portfolio {
+  padding-top: 60px;
 }
 
 .modal-btn {
-  width: 145px;
+  text-align: center;
   height: 38px;
   padding: 6px 22px;
   margin-right: 8px;
@@ -143,6 +141,33 @@ img {
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  .modal-btn:not(:last-child) {
+    margin-right: 8px;
+  }
+  .modal-btn:nth-child(-n+3) {
+    margin-bottom: 15px;
+  }
+  .modal-btn {
+    display: inline-block;
+  }
+  .filter {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*  .filter {
+    padding-top: 94px;
+    padding-left: 275px;
+    
+  }  */
 .social-list-link {
   display: flex;
   align-items: center;
@@ -217,26 +242,10 @@ img {
 .croup {
   display: inline-block;
   position: relative;
-  width: 370px;
-  height: 404px;
   background: #FFFFFF;
+  border: 1px solid #EEEEEE;
   box-sizing: border-box;
   cursor: pointer;
-}
-
-.croup:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-
-.croup:not(:nth-last-child(-n+3)) {
-  margin-bottom: 30px;
-}
-
-.project {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 34px;
-  padding-bottom: 94px;
 }
 
 .project-subtitle {
@@ -269,11 +278,6 @@ img {
   background-color: #FFFFFF;
 }
 
-.section-img {
-  width: 370px;
-  height: 294px;
-}
-
 .description-overlay {
   position: absolute;
   top: 0;
@@ -304,6 +308,40 @@ img {
 .croup-overlay {
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .сroup {
+    width: 450px;
+    height: 404px;
+    left: 15px;
+    top: 1553px;
+  }
+  .croup:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .project-overlay {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 34px;
+    padding-bottom: 94px;
+  }
+  .croup {
+    width: 370px;
+    height: 404px;
+  }
+  .croup:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+  .croup:not(:nth-last-child(-n+3)) {
+    margin-bottom: 30px;
+  }
 }
 
 .header-logo {
@@ -457,9 +495,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .header-container {
-    height: 80px;
-  }
   .menu-button {
     display: none;
   }
@@ -490,41 +525,6 @@ img {
   }
 }
 
-/* 
-        .navigation-active-link::after {
-      content: "";
-      display: flex;
-      background-position: bottom;
-      margin-top: 28px;
-      height: 4px;
-      background: $accent-color;
-      border-radius: 2px;
-       }
-      .header-mail-link,
-      .header-tel-link{
-      font-size: 18px;
-      line-height: 21px;
-      }
-      .navigation-active-link {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      color: $accent-color;
-  
-      &::after {
-        content: "";
-        display: flex;
-        background-position: bottom;
-        margin-top: 28px;
-        height: 4px;
-        background: $accent-color;
-        border-radius: 2px;
-        opacity: 0;
-      }
-      &:hover::after {
-        opacity: 1;
-      }  */
 @media screen and (min-width: 1200px) {
   .header-logo {
     font-size: 26px;
@@ -682,6 +682,12 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    padding: 0;
+  }
+  .container-address {
+    padding-top: 60px;
+  }
   .footer-logo {
     font-size: 26px;
     line-height: 1.192px;
@@ -709,6 +715,13 @@ img {
   .bottom {
     padding-left: 200px;
     padding-bottom: 94px;
+  }
+  .mail-input {
+    padding-top: 72px;
+  }
+  .button-input {
+    padding-top: 108px;
+    margin-left: 10px;
   }
 }
 /*# sourceMappingURL=portfolio.css.map */

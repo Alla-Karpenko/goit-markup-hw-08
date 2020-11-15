@@ -164,9 +164,7 @@
   
 
   @media screen and (min-width: 768px) {
-    .header-container {
-      height: 80px;
-    }
+  
     .menu-button {
       display: none;
     }
@@ -199,41 +197,7 @@
     }
     
   }
-       /* 
-        .navigation-active-link::after {
-      content: "";
-      display: flex;
-      background-position: bottom;
-      margin-top: 28px;
-      height: 4px;
-      background: $accent-color;
-      border-radius: 2px;
-       }
-      .header-mail-link,
-      .header-tel-link{
-      font-size: 18px;
-      line-height: 21px;
-      }
-      .navigation-active-link {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      color: $accent-color;
-  
-      &::after {
-        content: "";
-        display: flex;
-        background-position: bottom;
-        margin-top: 28px;
-        height: 4px;
-        background: $accent-color;
-        border-radius: 2px;
-        opacity: 0;
-      }
-      &:hover::after {
-        opacity: 1;
-      }  */
+     
     
   
   @media screen and (min-width: 1200px) {
@@ -256,7 +220,7 @@
 
     .navigation {
       margin-right: 200px;
-  }
+    }
   }
       
    

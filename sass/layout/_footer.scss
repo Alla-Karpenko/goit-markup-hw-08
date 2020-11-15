@@ -1,7 +1,5 @@
 .footer {
-  
   background: $footer-bg;
-  
 }
 
   .contact-address {
@@ -123,9 +121,9 @@
 @media screen and (min-width: 768px) {
   
   .footer {
-      padding-top: 60px;
-      padding-bottom: 60px;
-      text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
   }
   
   .address-social {
@@ -141,12 +139,19 @@
     width: 450px;
     margin-bottom: 20px;
   }
+  
 }
 
 
 @media screen and (min-width: 1200px) {
-
-     .footer-logo {
+    .footer {
+      padding: 0
+      
+    }
+    .container-address {
+      padding-top: 60px;
+    }
+    .footer-logo {
       font-size: 26px;
       line-height: 1.192px;
     }
@@ -173,10 +178,16 @@
     margin-left: 93px;
   }
   .bottom {
-   
     padding-left: 200px;
     padding-bottom: 94px;
   }
 
+  .mail-input {
+    padding-top: 72px;
+  }
+  .button-input {
+    padding-top: 108px;
+    margin-left: 10px;
+  }
  
 }   
