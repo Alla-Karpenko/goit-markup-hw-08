@@ -52,11 +52,12 @@ img {
 }
 
 .container {
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
@@ -70,7 +71,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .gallery.container {
+  .container {
     width: 768px;
   }
   .header-container {
@@ -311,25 +312,22 @@ img {
   overflow: hidden;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .сroup {
     width: 450px;
     height: 404px;
     left: 15px;
     top: 1553px;
   }
-  .croup:not(:last-child) {
+  .croup {
     margin-bottom: 30px;
   }
-  .project-overlay {
-    margin-bottom: 30px;
-  }
-  .filter {
-    margin-bottom: 30px;
+  .project {
+    margin-top: 30px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1999px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .project {
     display: flex;
     flex-wrap: wrap;
@@ -337,14 +335,8 @@ img {
   .croup {
     width: 354px;
   }
-  .croup:not(:last-child) {
-    margin-bottom: 30px;
-  }
-  .filter {
-    margin-bottom: 30px;
-  }
-  .croup:nth-child(even) {
-    margin-left: 30px;
+  .croup:nth-child(2n + 1) {
+    margin-right: 30px;
   }
 }
 
@@ -353,6 +345,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 94px;
+    margin-top: 50px;
   }
   .croup {
     width: 370px;
