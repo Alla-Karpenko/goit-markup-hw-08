@@ -350,6 +350,9 @@ img {
   .croup {
     width: 370px;
   }
+  .croup:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
 }
 
 .header-logo {

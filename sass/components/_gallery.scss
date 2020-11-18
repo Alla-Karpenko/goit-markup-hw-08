@@ -100,10 +100,6 @@
   .croup:nth-child(2n + 1) {
     margin-right: 30px;
   }
-  
-  
-  
-  
 }
 
 
@@ -117,6 +113,8 @@
   }
   .croup {
     width: 370px;
-   
+  }
+  .croup:not(:nth-child(3n)) {
+    margin-right: 30px;
   }
 }
