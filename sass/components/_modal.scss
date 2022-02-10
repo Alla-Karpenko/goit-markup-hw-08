@@ -160,16 +160,14 @@
   }
 
   .modal {
-
     position: absolute;
      top: 50%;
      left: 50%;
      transform: translate(-50%,-50%);
-     width: 528px;
-     height: 581px;
      background: $color-secondary;
      padding: 40px;
-   }
+  }
+
   .modal-form-field-wrapper {
     position: relative;
     margin-top: 4px;
@@ -206,7 +204,7 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) { 
     .backdrop {
-      width: 100%;
+      
       padding-top: 93px;
       position: absolute;
       left: 50%;
