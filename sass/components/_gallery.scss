@@ -6,6 +6,7 @@
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     cursor: pointer;
+    margin-bottom: 30px;
   }
   .project {
     padding: 0;
@@ -75,8 +76,14 @@
     overflow: hidden;
   } 
 
-
-  @media screen and (min-width: 0px) and (max-width: 767px) { 
+  @media screen and (min-width: 0px) and (max-width: 479px) {
+    
+    .croup {
+      width: 100%;
+    }
+  
+  }
+@media screen and (min-width: 480px) and (max-width: 767px) { 
     .сroup {
       width: 100%;
       height: 100%;
